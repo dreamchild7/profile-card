@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+    width: 60%;
+    height: auto;
+    min-height: 70vh;
+    background-color: hsla(186, 68%, 42%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    min-width: 200px;
+    margin: auto 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: white;
+    display: block;
+    position: relative;
+}
+
+.top-part {
+    width: 100%;
+    height: 80px;
+    background: #48DADDff;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+}
+
+.image-container {
+    position: absolute;
+    top: 45px;
+    transform: translate(90%);
+    width: 70px;
+    height: 70px;
+    border: .15em solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 100;
+    -webkit-transform: translate(90%);
+    -moz-transform: translate(90%);
+    -ms-transform: translate(90%);
+    -o-transform: translate(90%);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.bottom-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3em;
+    text-align: center;
+}
+
+.name {
+    font-size: .70rem;
+    font-weight: 900;
+    color: #333333;
+}
+
+.age {
+    color: #999999;
+    font-size: .60rem;
+}
+
+.location {
+    margin-top: 5px;
+}
+
+p {
+    color: #999999;
+    font-size: .60rem;
+    font-weight: 300;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: .7em 0;
+    border-top: 1px solid #e4e1e1;
+}
+
+.social h6 {
+    text-transform: uppercase;
+}
